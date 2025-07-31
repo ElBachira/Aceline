@@ -3,23 +3,29 @@
 
 const botsMasculinos = [
     {
-        nombre: "Stellan",
-        imagen: "https://i.ibb.co/b3bwyXR/Stellan.png", // URL de la imagen del icono
-        link: "https://elbachira.github.io/Stellan/" // URL de la ficha completa
+        nombre: "Acelin",
+        imagen: "https://i.postimg.cc/jSfvCv6D/Acelin.png", // URL de la imagen del icono
+        link: "https://elbachira.github.io/Acelin/" // URL de la ficha completa
     },
     {
-        nombre: "Reuben",
-        imagen: "https://i.ibb.co/xxxx/reuben-icono.png", // ¡Reemplaza con la imagen real!
-        link: "https://elbachira.github.io/ficha-reuben/" // ¡Reemplaza con el link real!
+        nombre: "Stellan",
+        imagen: "https://i.postimg.cc/RqxvH0BG/Stellan.png", // ¡Reemplaza con la imagen real!
+        link: "https://elbachira.github.io/Stellan/" // ¡Reemplaza con el link real!
     },
     // ... ¡Añade aquí tus otros bots masculinos!
 ];
 
 const botsFemeninos = [
      {
-        nombre: "Iris",
-        imagen: "https://i.ibb.co/xxxx/iris-icono.png", // ¡Reemplaza con la imagen real!
-        link: "https://elbachira.github.io/ficha-iris/" // ¡Reemplaza con el link real!
+        nombre: "Aceline",
+        imagen: "https://i.postimg.cc/L6kcDSFq/Aceline.png", // ¡Reemplaza con la imagen real!
+        link: "https://elbachira.github.io/Aceline//" // ¡Reemplaza con el link real!
+     },
+     {
+        nombre: "Estelle",
+        imagen: "https://i.postimg.cc/j5T9PJwD/Estelle.png", // ¡Reemplaza con la imagen real!
+        link: "https://elbachira.github.io/Estelle/" // ¡Reemplaza con el link real!
+    },    
     },
     // ... ¡Añade aquí tus bots femeninos!
 ];
