@@ -126,6 +126,33 @@ document.addEventListener('DOMContentLoaded', function() {
                 copyBtn.innerHTML = originalBtnText;
                 copyBtn.classList.remove('copied');
             }, 2000);
+            // --- LÓGICA PARA CONSTRUIR LA GALERÍA DE BOTS ---
+document.addEventListener('DOMContentLoaded', function() {
+    const galeriaMasc = document.getElementById('galeria-masculina');
+    const galeriaFem = document.getElementById('galeria-femenina');
+
+    // Construye la galería masculina
+    botsMasculinos.forEach(bot => {
+        const botIcon = `
+            <a href="${bot.link}" target="_blank" class="char-icon">
+                <img src="${bot.imagen}" alt="${bot.nombre}">
+                <span class="char-name">${bot.nombre}</span>
+            </a>
+        `;
+        galeriaMasc.innerHTML += botIcon;
+    });
+
+    // Construye la galería femenina
+    botsFemeninos.forEach(bot => {
+        const botIcon = `
+            <a href="${bot.link}" target="_blank" class="char-icon">
+                <img src="${bot.imagen}" alt="${bot.nombre}">
+                <span class="char-name">${bot.nombre}</span>
+            </a>
+        `;
+        galeriaFem.innerHTML += botIcon;
+    });
+});
         });
     });
 });
